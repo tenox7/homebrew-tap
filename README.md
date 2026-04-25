@@ -24,3 +24,18 @@ brew install --cask audiosnitch
 | [partmount](https://github.com/tenox7/partmount) | Disk image partition mounter |
 | [rarext](https://github.com/tenox7/rarext) | Finder Quick Actions extension for RAR archives |
 | [wifimon](https://github.com/tenox7/wifimon) | Wi-Fi network monitor |
+
+## Bumping a cask after a new app release
+
+Casks pin a specific `version` + `sha256`, so this tap must be updated when an
+app cuts a new release.
+
+```sh
+cd ~/Code/_github/homebrew-tap
+shasum -a 256 /path/to/NewBuild.dmg          # or .pkg
+# edit Casks/<app>.rb: update `version` and `sha256`
+git commit -am "<app>: bump to X.Y.Z"
+git push
+```
+
+Users then pick up the new version with `brew upgrade`.
