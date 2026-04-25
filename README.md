@@ -20,3 +20,6 @@ brew install --cask audiosnitch
 | Cask | Description |
 | --- | --- |
 | [audiosnitch](https://github.com/tenox7/audiosnitch) | Monitors which apps are producing audio output |
+| [dufus](https://github.com/tenox7/dufus) | SD card and USB disk image writer |
+| [partmount](https://github.com/tenox7/partmount) | Disk image partition mounter |
+| [wifimon](https://github.com/tenox7/wifimon) | Wi-Fi network monitor |
