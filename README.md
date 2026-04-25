@@ -21,9 +21,9 @@ brew install --cask audiosnitch
 | --- | --- |
 | [audiosnitch](https://github.com/tenox7/audiosnitch) | Monitors which apps are producing audio output |
 | [dufus](https://github.com/tenox7/dufus) | SD card and USB disk image writer |
-| [enigma](https://github.com/tenox7/Enigma) | Puzzle game inspired by Oxyd and Rock'n'Roll (arm64 only) |
 | [partmount](https://github.com/tenox7/partmount) | Disk image partition mounter |
 | [rarext](https://github.com/tenox7/rarext) | Finder Quick Actions extension for RAR archives |
+| [sng](https://github.com/tenox7/sng) | System and network grapher |
 | [wifimon](https://github.com/tenox7/wifimon) | Wi-Fi network monitor |
 
 ## Bumping a cask after a new app release
