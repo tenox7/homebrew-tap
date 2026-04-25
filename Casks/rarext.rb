@@ -1,6 +1,6 @@
 cask "rarext" do
   version "0.0.5"
-  sha256 "94ea97c409c2b0b88d352856367bfc1873bfdf48af8451df4618422cd3e664ff"
+  sha256 "06023a7646a67ad06ba691210d5404b2bf62e8e42eed5cef6fcb09dcf169ca27"
 
   url "https://github.com/tenox7/rarext/releases/download/#{version}/RARExt.pkg"
   name "RARExt"
