@@ -23,8 +23,10 @@ brew install --cask audiosnitch
 | [dufus](https://github.com/tenox7/dufus) | SD card and USB disk image writer |
 | [partmount](https://github.com/tenox7/partmount) | Disk image partition mounter |
 | [rarext](https://github.com/tenox7/rarext) | Finder Quick Actions extension for RAR archives |
+| [sabre](https://github.com/tenox7/sabreOSX) | Port of SABRE Fighter Plane Simulator to macOS |
 | [sng](https://github.com/tenox7/sng) | System and network grapher |
 | [wifimon](https://github.com/tenox7/wifimon) | Wi-Fi network monitor |
+| [zuma](https://github.com/tenox7/ZumaMacOS) | Zuma Deluxe port for macOS (requires Steam game data) |
 
 ## Bumping a cask after a new app release
 
